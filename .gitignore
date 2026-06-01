@@ -1,0 +1,24 @@
+# Vivado build artifacts
+.Xil/
+*.cache/
+*.hw/
+*.hwdef
+*.os
+*.str
+*.backup.jou
+*.backup.log
+*.jou
+*.log
+upgrade_project_migration_report.log
+
+# Vivado project cache
+Prj/ldc/ldc.cache/
+Prj/ldc/ldc.hw/
+Prj/ldc/.Xil/
+Prj/ldc/Wave/
+
+# Vivado backup / simulation
+**/vivado*.jou
+**/vivado*.log
+**/*.backup.jou
+**/*.backup.log
